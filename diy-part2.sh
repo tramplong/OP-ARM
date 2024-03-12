@@ -61,12 +61,11 @@ rm -rf feeds/kenzo/luci-app-filebrowser
 merge_package https://github.com/Lienol/openwrt-package openwrt-package/luci-app-filebrowser
 
 #mosdns
-rm -rf feeds/kenzo/luci-app-mosdns
-rm -rf feeds/packages/net/mosdns
-rm -rf feeds/luci/applications/luci-app-mosdns
-merge_package https://github.com/sbwml/luci-app-mosdns luci-app-mosdns
-merge_package https://github.com/sbwml/luci-app-mosdns luci-app-mosdns/mosdns
-# git clone https://github.com/sbwml/luci-app-mosdns -b v5 feeds/luci/applications/luci-app-mosdns
+# rm -rf feeds/kenzo/luci-app-mosdns
+# rm -rf feeds/packages/net/mosdns
+# rm -rf feeds/luci/applications/luci-app-mosdns
+# merge_package https://github.com/sbwml/luci-app-mosdns luci-app-mosdns
+# merge_package https://github.com/sbwml/luci-app-mosdns luci-app-mosdns/mosdns
 
 # 修改主题背景
 # cp -f $GITHUB_WORKSPACE/bg1.jpg feeds/luci/themes/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
