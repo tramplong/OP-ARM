@@ -71,7 +71,7 @@ merge_package https://github.com/sbwml/luci-app-mosdns luci-app-mosdns/mosdns
 # cp -f $GITHUB_WORKSPACE/bg1.jpg feeds/luci/themes/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 # xfsprogs
-cp -f $GITHUB_WORKSPACE/patch/xfsprogs/Makefile feeds/packages/utils/xfsprogs/Makefile
+# cp -f $GITHUB_WORKSPACE/patch/xfsprogs/Makefile feeds/packages/utils/xfsprogs/Makefile
 
 # v2dat
 cp -f $GITHUB_WORKSPACE/patch/v2dat/Makefile feeds/packages/utils/v2dat/Makefile
