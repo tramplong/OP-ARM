@@ -74,9 +74,9 @@ jobs:
         PACKAGE_SOC: tvi3315a
         WHOAMI: Tramplong
         KERNEL_REPO_URL: https://github.com/ophub/kernel/releases/tag/kernel_beta
-        KERNEL_VERSION_NAME: 6.6.22
+        KERNEL_VERSION_NAME: 6.6.28
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        OPENWRT_VER: R24.03.17
+        OPENWRT_VER: R24.04.28
         KERNEL_AUTO_LATEST: false
         GZIP_IMGS: .gz
 
