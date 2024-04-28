@@ -31,7 +31,7 @@ on:
       releases_keep_latest:
         description: "How many latest releases to keep."
         required: false
-        default: "2"
+        default: "6"
         type: choice
         options:
           - 30
@@ -59,7 +59,7 @@ on:
       workflows_keep_day:
         description: "Days to keep workflows."
         required: false
-        default: "1"
+        default: "6"
         type: choice
         options:
           - 30
