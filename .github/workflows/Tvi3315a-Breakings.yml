@@ -74,7 +74,7 @@ jobs:
         KERNEL_REPO_URL: https://github.com/ophub/kernel/releases/tag/kernel_stable
         KERNEL_VERSION_NAME: 6.1.1_6.6.1
         token: ${{ secrets.GITHUB_TOKEN }}
-        OPENWRT_VER: R25.1.1
+        OPENWRT_VER: R25.2.5
         KERNEL_AUTO_LATEST: true
         GZIP_IMGS: .gz
 
@@ -98,7 +98,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
           - 默认 IP：192.168.1.1  默认密码：password ( WiFi 密码相同 ）
-          - 默认 DTB 文件为自用超频版，原 DTB 文件备份在目录中，可自行恢复
+          - 默认 DTB 文件为自用版 ( 大核 2.0 小核 1.5 ），原 DTB 文件备份在目录中，可自行恢复
           - 底包来源：Breakings ( 高大全 ）
           - 地址：https://github.com/breakingbadboy/OpenWrt
 
