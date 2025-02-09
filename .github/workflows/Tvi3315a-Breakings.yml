@@ -98,7 +98,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
           - 默认 IP：192.168.1.1  默认密码：password ( WiFi 密码相同 ）
-          - 默认 DTB 文件为自用版 ( 大核 2.0 小核 1.5 ），原 DTB 文件备份在目录中，可自行恢复
+          - 默认 DTB 文件为超频版 ( 大核 2.0 小核 1.6 ），原 DTB 文件备份在目录中，可自行恢复
           - 底包来源：Breakings ( 高大全 ）
           - 地址：https://github.com/breakingbadboy/OpenWrt
 
