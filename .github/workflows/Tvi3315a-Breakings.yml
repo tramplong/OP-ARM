@@ -69,7 +69,7 @@ jobs:
       uses: Zane-E/openwrt_packit@master
       env:
         #OPENWRT_ARMVIRT: https://github.com/breakingbadboy/OpenWrt/releases/download/openwrt_armvirt/openwrt-armsr-armv8-rootfs.tar.gz
-        OPENWRT_ARMVIRT: http://u2.780918.xyz/openwrt-armsr-armv8-rootfs.tar.gz
+        OPENWRT_ARMVIRT: http://u2.780918.xyz/openwrt-armsr-armv8-generic-rootfs.tar.gz
         PACKAGE_SOC: tvi3315a
         WHOAMI: Milo_Zed
         KERNEL_REPO_URL: https://github.com/ophub/kernel/releases/tag/kernel_stable
